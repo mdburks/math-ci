@@ -1,5 +1,15 @@
 import { describe, it, expect } from 'vitest';
-import { add, subtract, multiply, divide, factorial, power, average, clamp, quadratic } from './math';
+import {
+  add,
+  subtract,
+  multiply,
+  divide,
+  factorial,
+  power,
+  average,
+  clamp,
+  quadratic,
+} from './math';
 
 describe('add', () => {
   it('adds two positive numbers', () => {
@@ -87,4 +97,3 @@ describe('quadratic', () => {
     expect(quadratic(1, 0, 1)).toBeNull();
   });
 });
-
